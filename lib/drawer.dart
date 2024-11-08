@@ -15,6 +15,7 @@ class MyHomePage extends StatelessWidget{
         backgroundColor: Colors.blue[900],
         foregroundColor: Colors.white,
       ),
+      drawer: buildGrupDrawer(context),
       body: GridView.count(
         crossAxisCount: 2,
         crossAxisSpacing: 10.0,
