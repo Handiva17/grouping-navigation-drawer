@@ -6,7 +6,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  static const header = ['12 RPL 2'];
+  static const header = "12 RPL 2";
   const MyApp({super.key});
 
   // This widget is the root of your application.
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'header'),
+      home: const MyHomePage(title: header),
     );
   }
 }
